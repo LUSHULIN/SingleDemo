@@ -21,6 +21,7 @@
     dispatch_once(&onceToken, ^{
         _appData = [[AppData alloc]init];
     });
+    NSLog(@"测试分支版本功能");
     return _appData;
 }
 

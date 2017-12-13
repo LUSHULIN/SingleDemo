@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962F11FA1FE10CB60050CA44 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 962F11F91FE10CB60050CA44 /* Person.m */; };
 		963EEAE91FD0EC3D004E1270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963EEAE81FD0EC3D004E1270 /* main.m */; };
 		963EEAEC1FD0EC3D004E1270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963EEAEB1FD0EC3D004E1270 /* AppDelegate.m */; };
 		963EEAEF1FD0EC3D004E1270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963EEAEE1FD0EC3D004E1270 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		962F11F81FE10CB60050CA44 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		962F11F91FE10CB60050CA44 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		963EEAE41FD0EC3D004E1270 /* SingleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		963EEAE81FD0EC3D004E1270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		963EEAEA1FD0EC3D004E1270 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				963EEAEE1FD0EC3D004E1270 /* ViewController.m */,
 				963EEAFE1FD0EC51004E1270 /* AppData.h */,
 				963EEAFF1FD0EC51004E1270 /* AppData.m */,
+				962F11F81FE10CB60050CA44 /* Person.h */,
+				962F11F91FE10CB60050CA44 /* Person.m */,
 				963EEAF01FD0EC3D004E1270 /* Main.storyboard */,
 				963EEAF31FD0EC3D004E1270 /* Assets.xcassets */,
 				963EEAF51FD0EC3D004E1270 /* LaunchScreen.storyboard */,
@@ -157,6 +162,7 @@
 			files = (
 				963EEAEF1FD0EC3D004E1270 /* ViewController.m in Sources */,
 				963EEAEC1FD0EC3D004E1270 /* AppDelegate.m in Sources */,
+				962F11FA1FE10CB60050CA44 /* Person.m in Sources */,
 				963EEAE91FD0EC3D004E1270 /* main.m in Sources */,
 				963EEB001FD0EC51004E1270 /* AppData.m in Sources */,
 			);
@@ -313,6 +319,7 @@
 				963EEAFD1FD0EC3D004E1270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
