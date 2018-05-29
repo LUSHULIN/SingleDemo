@@ -19,10 +19,18 @@
     static AppData *_appData = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _appData = [[AppData alloc]init];
+        _appData = [[super allocWithZone:nil]init];
     });
     NSLog(@"测试分支版本功能");
     return _appData;
+}
+
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    return [AppData shareInstance];
+}
+
+- (id)copyWithZone:(struct _NSZone *)zone {
+    return [AppData shareInstance] ;
 }
 
 @end
